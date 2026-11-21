@@ -1,0 +1,103 @@
+---
+layout: null
+---
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>الدعم · Sahla support</title>
+    <meta name="description" content="Help for Sahla, the file converter that works on your device." />
+    <meta name="color-scheme" content="light dark" />
+    <style>
+      :root {
+        --bg: #f5f5f7;
+        --fg: #1d1d1f;
+        --muted: #6e6e73;
+        --card: #ffffff;
+        --hair: rgba(0, 0, 0, 0.08);
+        --accent: #0066cc;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #0c0c0e;
+          --fg: #f5f5f7;
+          --muted: #a1a1a6;
+          --card: #1c1c1e;
+          --hair: rgba(255, 255, 255, 0.1);
+          --accent: #4ea1ff;
+        }
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--fg);
+        font: 16px/1.7 system-ui, -apple-system, 'Segoe UI', Tahoma, sans-serif;
+      }
+      main {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 32px 16px 64px;
+      }
+      section {
+        background: var(--card);
+        border: 1px solid var(--hair);
+        border-radius: 20px;
+        padding: 8px 24px 24px;
+        margin-bottom: 24px;
+      }
+      h1 {
+        font-size: 26px;
+        margin: 0 0 4px;
+      }
+      h2 {
+        font-size: 18px;
+        margin: 24px 0 4px;
+      }
+      p,
+      li {
+        margin: 6px 0;
+      }
+      ul {
+        padding-inline-start: 22px;
+      }
+      .muted {
+        color: var(--muted);
+        font-size: 14px;
+      }
+      a {
+        color: var(--accent);
+      }
+      nav {
+        text-align: center;
+        margin-bottom: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <nav><a href="../privacy/">الخصوصية · Privacy</a> · <a href="#ar" hreflang="ar">العربية</a> · <a href="#en" hreflang="en" lang="en">English</a></nav>
+      <section id="ar" lang="ar" dir="rtl">
+        <h1>دعم سهلة</h1>
+        <p>عندك سؤال، أو لقيت مشكلة، أو عندك فكرة؟ راسلنا على <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a> واكتب نوع جهازك ونسخة النظام.</p>
+        <h2>أسئلة متكررة</h2>
+        <details><summary>وين تروح ملفاتي؟</summary><p>ما تروح مكان. سهلة تحوّل وتعدّل الملفات على جهازك نفسه، وما ترفعها لأي خادم.</p></details>
+        <details><summary>وش هو سهلة برو؟</summary><p>اشتراك يفتح كل الأدوات والاستوديوهات وملفات كثيرة مرة وحدة: أسبوعي، أو شهري، أو سنوي (الشهري والسنوي فيهم 3 أيام مجاناً). يتجدد تلقائياً، وتلغيه أي وقت من الإعدادات ← اسمك ← الاشتراكات، قبل نهاية الفترة بـ 24 ساعة على الأقل.</p></details>
+        <details><summary>اشتركت وما انفتحت الأدوات، أو غيّرت جهازي</summary><p>افتح «سهلة برو» واضغط «استرجاع المشتريات» بنفس حساب Apple.</p></details>
+        <details><summary>كيف يشتغل «شوف إعلان وخذ رصيد»؟</summary><p>إعلان قصير اختياري يعطيك رصيد واحد لاستخدام أداة من أدوات برو مرة وحدة. ما يطلع أي إعلان إلا لما تختاره أنت. وتقدر تغيّر اختيارك للإعلانات من «خيارات خصوصية الإعلانات» في صفحة سهلة برو (لما يكون مطلوب في بلدك).</p></details>
+        <details><summary>فيه نسخة للكمبيوتر؟</summary><p>إيه، على <a href="https://sahla.ae">sahla.ae</a>.</p></details>
+      </section>
+      <section id="en" lang="en" dir="ltr">
+        <h1>Sahla support</h1>
+        <p>A question, a problem or an idea? Email us at <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a> and include your device model and system version.</p>
+        <h2>FAQ</h2>
+        <details><summary>Where do my files go?</summary><p>Nowhere. Sahla converts and edits files on your device itself and never uploads them.</p></details>
+        <details><summary>What is Sahla Pro?</summary><p>A subscription that opens every tool and studio and many files at once: weekly, monthly or yearly (monthly and yearly start with 3 days free). It renews automatically; cancel any time in Settings → your name → Subscriptions, at least 24 hours before the period ends.</p></details>
+        <details><summary>I subscribed but tools are still locked, or I changed phone</summary><p>Open "Sahla Pro" and tap "Restore purchases" with the same Apple ID.</p></details>
+        <details><summary>How does "Watch an ad for 1 credit" work?</summary><p>An optional short ad gives you one credit to use one Pro tool once. No ad ever shows unless you choose it. Change your ad choices with "Ad privacy choices" on the Sahla Pro page (where your country requires it).</p></details>
+        <details><summary>Is there a version for computers?</summary><p>Yes, at <a href="https://sahla.ae">sahla.ae</a>.</p></details>
+      </section>
+      <p class="muted" style="text-align:center">WASP TECH, UAE · <a href="https://wasp.ae">wasp.ae</a></p>
+    </main>
+  </body>
+</html>
